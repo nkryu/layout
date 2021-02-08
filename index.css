@@ -6,6 +6,7 @@
 
 /* header */
 header {
+  width: 100%;
   background: rgba(000, 000, 000, 0.8);
   color: #eee;
   height: 50px;
@@ -82,6 +83,7 @@ main section:nth-of-type(2) a:hover {
 
 .main {
   margin: 0 20px;
+  /* width: 65%; */
 }
 .main h2 {
   margin-bottom: 20px;
@@ -101,10 +103,11 @@ main section:nth-of-type(2) a:hover {
 }
 
 aside {
-  width: 300px;
+  min-width: 100px;
+  width: 20%;
 }
 aside img {
-  width: 300px;
+  width: 100%;
   margin-bottom: 100px;
 }
 
